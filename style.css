@@ -1,0 +1,312 @@
+body{
+  background: linear-gradient(
+  rgba(0, 0, 0, 0.45),
+  rgba(0, 0, 0, 0.45)
+  ),url(https://d3isma7snj3lcx.cloudfront.net/optim/images/gallery/10/105257/the-legend-of-zelda-breath-of-the-wild-switch-e793fb84.jpg);
+
+  background-size:cover;
+  background-attachment: fixed
+}
+#h1{
+margin-top: 20px;
+box-shadow: 3px 3px black, -2em 0 .4em black;
+text-decoration: underline;
+margin-bottom: 40px;
+text-align: center;
+color: white;
+}
+#Presentation{
+box-shadow: 3px 3px black, -1em 0 .4em black;
+text-decoration: underline;
+color: white;
+}
+#Maformation{
+box-shadow: 3px 3px black, -1em 0 .4em black;
+text-decoration: underline;
+color: white;
+}
+#Expérience{
+box-shadow: 3px 3px black, -1em 0 .4em black;
+text-decoration: underline;
+color: white;
+}
+.container-fluid{
+color: white;
+}
+.para{
+text-align: center;
+}
+{
+  box-sizing: border-box;
+}
+
+/* Set a background color */
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 48%;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: red;
+  border: 4px solid #FFFFFF;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: -30%;
+}
+
+/* Place the container to the right */
+.right {
+  left: +30%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content{
+  box-shadow: 3px 3px black, -1em 0 .4em black;
+  padding: 20px 30px;
+  background: linear-gradient(
+     rgba(0, 0, 0, 0.60),
+     rgba(0, 0, 0, 0.70)
+   ),url(http://www.gif-maniac.com/gifs/45/44737.gif);
+  position: relative;
+  border-radius: 6px;
+color: white;
+}
+#gif1{
+  box-shadow: 3px 3px black, -1em 0 .4em black;
+  padding: 20px 30px;
+  background: linear-gradient(
+     rgba(0, 0, 0, 0.60),
+     rgba(0, 0, 0, 0.70)
+   ),url(https://media0.giphy.com/media/IO2ICudgtBjby/giphy.gif);
+   background-repeat:no-repeat;
+  position: relative;
+  border-radius: 6px;
+}
+#gif2{
+  box-shadow: 3px 3px black, -1em 0 .4em black;
+  padding: 20px 30px;
+  background: linear-gradient(
+     rgba(0, 0, 0, 0.60),
+     rgba(0, 0, 0, 0.70)
+   ),url(http://4.bp.blogspot.com/-30bOSyiy-bY/U_zv2mlyAZI/AAAAAAAABv0/xQmtcktifd8/s1600/tumblr_n7h4nwsZZo1rnf8n3o1_500.gif);
+   background-repeat:no-repeat;
+  position: relative;
+  border-radius: 6px;
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+/* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+
+/* Full-width containers */
+  .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+/* Make sure that all arrows are pointing leftwards */
+  .container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+/* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+    left: 15px;
+  }
+
+/* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+}
+#para2{
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*h1{
+  text-align: center;
+  text-decoration: underline;
+}
+#Presentation{
+width: 20%;
+background-color: rgba( 255,255,255,0.5 );
+margin-left: 50px;
+float: left;
+text-decoration: underline;
+text-align: left;
+border:1px dotted #CCCCCC;
+padding:0.5em;
+[b]display : inline ;[/b]
+}
+p{
+text-align: left;
+}
+#Maformation{
+width: 20%;
+background-color: rgba( 255,255,255,0.5 );
+margin-left: 50px;
+margin-top: 50px;
+float: right;
+text-decoration: underline;
+text-align: left;
+border:1px dotted #CCCCCC;
+padding:0.5em;
+[b]display : inline ;[/b]
+
+right:0;
+font-weight: bold;
+}
+body{
+background-image: url(https://cdn03.nintendo-europe.com/media/images/10_share_images/games_15/virtual_console_nintendo_3ds_7/SI_3DSVC_SuperMarioBros_image1600w.jpg);
+background-size: cover;
+}
+tbody{
+text-align: center;
+}
+#Encadrement1{
+width: 28%;
+background-color: rgba( 255,255,255,0.5 );
+}
+#Encadrement2{
+float: right;
+margin-bottom:auto;
+width: 20%;
+background-color: rgba( 255,255,255,0.5 );
+}
+#Encadrement3{
+margin-top: 20px;
+width: 20%;
+background-color: rgba( 255,255,255,0.5 );
+}
+#Expérience{
+font-weight: bold;
+width: 20%;
+background-color: rgba( 255,255,255,0.5 );
+margin-left: 50px;
+float: left;
+text-decoration: underline;
+
+}
+#Encadrement4{
+width: 20%;
+background-color: rgba( 255,255,255,0.5 );
+float: left;
+margin-top: 15px;
+}
+.tableau{
+
+  margin-left: 60%;
+  background-color: rgba( 255,255,255,0.5 );
+  border:1px dotted #CCCCCC;
+  padding:0.5em;
+  [b]display : inline ;[/b]
+}
+*/
