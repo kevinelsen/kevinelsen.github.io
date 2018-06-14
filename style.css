@@ -8,6 +8,7 @@ body{
   background-attachment: fixed
 }
 #h1{
+font-family: 'Rakkas' , cursive;
 margin-top: 20px;
 box-shadow: 3px 3px black, -2em 0 .4em black;
 text-decoration: underline;
@@ -16,16 +17,26 @@ text-align: center;
 color: white;
 }
 #Presentation{
+font-family: 'Rakkas' , cursive;
 box-shadow: 3px 3px black, -1em 0 .4em black;
 text-decoration: underline;
 color: white;
 }
 #Maformation{
+font-family: 'Rakkas' , cursive;
 box-shadow: 3px 3px black, -1em 0 .4em black;
 text-decoration: underline;
 color: white;
 }
 #Expérience{
+font-family: 'Rakkas' , cursive;
+box-shadow: 3px 3px black, -1em 0 .4em black;
+text-decoration: underline;
+color: white;
+}
+#hobbies{
+font-family: 'Rakkas' , cursive;
+margin-bottom: 50px;
 box-shadow: 3px 3px black, -1em 0 .4em black;
 text-decoration: underline;
 color: white;
@@ -39,7 +50,12 @@ text-align: center;
 {
   box-sizing: border-box;
 }
-
+#RAKKAS{
+  font-family: 'Rakkas', cursive;
+}
+.police{
+  font-family: 'Rakkas' ,cursive;
+}
 /* Set a background color */
 
 /* The actual timeline (the vertical ruler) */
