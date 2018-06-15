@@ -34,6 +34,15 @@ box-shadow: 3px 3px black, -1em 0 .4em black;
 text-decoration: underline;
 color: white;
 }
+#compétences{
+text-align: center;
+font-family: 'Rakkas' , cursive;
+margin-bottom: 50px;
+box-shadow: 3px 3px black, -1em 0 .4em black;
+text-decoration: underline;
+color: white;
+}
+
 #hobbies{
 font-family: 'Rakkas' , cursive;
 margin-bottom: 50px;
@@ -46,15 +55,102 @@ color: white;
 }
 .para{
 text-align: center;
+font-family: 'Roboto', sans-serif;
+font-size: x-large;
 }
 {
   box-sizing: border-box;
 }
+#cardBR{
+margin-bottom: 50px;
+margin-left: 100px;
+margin-right: 20px;
+}
+#cardBR2{
+margin-bottom:50px;
+margin-left: 100px;
+margin-right: 20px;
+}
+.f004{
+font-size: xx-large;
+color: red;
+}
+.f005{
+font-size: xx-large;
+}
+#FONT1{
+font-family: 'Rakkas' , cursive;
+  box-shadow: 3px 3px black, -1em 0 .4em black;
+  padding: 20px 30px;
+  background: linear-gradient(
+     rgba(0, 0, 0, 0.40),
+     rgba(0, 0, 0, 0.40)
+   ),url(assets/IMG/Logo-Sony.jpg);
+background-size:cover;
+color: white;
+}
+#FONT2{
+font-family: 'Rakkas' , cursive;
+  box-shadow: 3px 3px black, -1em 0 .4em black;
+  padding: 20px 30px;
+  background: linear-gradient(
+     rgba(0, 0, 0, 0.40),
+     rgba(0, 0, 0, 0.40)
+   ),url(assets/IMG/nintendo-retro-arcade-game-logo-sticker-800x800.jpg);
+  background-size:cover;
+  color: white;
+}
+#FONT3{
+font-family: 'Rakkas' , cursive;
+  box-shadow: 3px 3px black, -1em 0 .4em black;
+  padding: 20px 30px;
+  background: linear-gradient(
+     rgba(0, 0, 0, 0.40),
+     rgba(0, 0, 0, 0.40)
+   ),url(assets/IMG/microsoft.jpg);
+  background-size:cover;
+  color: white;
+}
+#FONT4{
+font-family: 'Rakkas' , cursive;
+  box-shadow: 3px 3px black, -1em 0 .4em black;
+  padding: 20px 30px;
+  background: linear-gradient(
+     rgba(0, 0, 0, 0.40),
+     rgba(0, 0, 0, 0.40)
+   ),url(assets/IMG/based_by_kolnzberserk-dbm106f.png);
+  background-size:cover;
+  color: white;
+}
+#FONT5{
+font-family: 'Rakkas' , cursive;
+  box-shadow: 3px 3px black, -1em 0 .4em black;
+  padding: 20px 30px;
+  background: linear-gradient(
+     rgba(0, 0, 0, 0.40),
+     rgba(0, 0, 0, 0.40)
+   ),url(https://pre00.deviantart.net/c39e/th/pre/f/2017/168/f/c/_remake__super_mario_world_logo_2_by_jeikeytor-dbd3ggg.png);
+  background-size:cover;
+  color: white;
+}
+#FONT6{
+font-family: 'Rakkas' , cursive;
+  box-shadow: 3px 3px black, -1em 0 .4em black;
+  padding: 20px 30px;
+  background: linear-gradient(
+     rgba(0, 0, 0, 0.40),
+     rgba(0, 0, 0, 0.40)
+   ),url(http://themeandphoto.com/wp-content/uploads/2014/08/error-back.png);
+  background-size:cover;
+  color: white;
+}
 #RAKKAS{
-  font-family: 'Rakkas', cursive;
+font-size: xx-large;
+font-family: 'Rakkas', cursive;
 }
 .police{
-  font-family: 'Rakkas' ,cursive;
+font-family: 'Rakkas' ,cursive;
+color: white ;
 }
 /* Set a background color */
 
@@ -208,8 +304,10 @@ color: white;
     left: 0%;
   }
 }
-#para2{
-  color: white;
+.para2{
+
+font-family: 'Roboto', sans-serif;
+  font-size: large;
 }
 
 
