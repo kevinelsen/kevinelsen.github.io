@@ -12,37 +12,16 @@
   <title>Développeur logiciel</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a id="RAKKAS" class="navbar-brand" href="#">K.E</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item ">
-          <a class="nav-link" href="#">Présentation<span class="sr-only">(current)</span></a>
-        </li>
-      </li>
-      <li class="nav-item ">
-        <a class="nav-link" href="#">Mes formations <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item ">
-        <a class="nav-link" href="#">Mes expérience <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item ">
-        <a class="nav-link" href="#">Mes compétences <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Mes hobbies</a>
-      </li>
-      <li class="nav-item ">
-        <a class="nav-link" href="#">Me contacter <span class="sr-only">(current)</span></a>
-      </li>
-    </div>
-
-  </div>
-</nav>
+  <ul id="nav">
+     <li id="nav-home"><a href="#Presentation">Présentation</a></li>
+     <li id="nav-about"><a href="#formations">Mes formations</a></li>
+     <li id="nav-archive"><a href="#expériences">Mes expériences</a></li>
+     <li id="nav-lab"><a href="#compétences">Mes compétences</a></li>
+     <li id="nav-reviews"><a href="#carousel">Mes hobbies</a></li>
+     <li id="nav-contact"><a href="#">Me contacter</a></li>
+  </ul>
+                                                                                                                                                        <br><br><br>
 <div class="container-fluid">
   <div class="row">
     <div class="offset-md-4 col-md-4 offset-md-4">
@@ -52,7 +31,7 @@
   <div class="row">
     <div class="offset-md-4 col-md-4 offset-md-4">
       <div class="para">
-        <div id="Presentation"><h2>Présentation:</h2></div>
+        <div class="Title" id="Presentation"><h2>Présentation:</h2></div>
         <p>Je m'apelle kévin elsen, j'ai 23 ans, et j'habite actuellement à noyon.</p>
         <p>J'ai travailler au parc carisiolas en tant qu'employé polyvalent
           <br>pendant 1 an. </p>
@@ -69,27 +48,29 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4 offset-md-4 col-md-4">
-            <div class="para">
-              <h2 id="Maformation">Mes formations:</h2>
 
-
-
-              <p>Formation Développeur de logiciel</p>
-              <p>Juin 2018 - Décembre 2018.</p>
-              <p>Agent d'entretient des bâtiments / afpa compiègne</p>
-              <p>2015 - 2017.</p>
-              <p>Agent polyvalent et encadrant technique de parcours <br> en hauteurs / Parc carisiolas Noyon.</p>
-              <p>Janvier 2014 - Août 2014.</p>
+            <div class="para col-md-4 ">
+              <h2 class="title" id="formations">Mes formations:</h2>
+                <p>Formation Développeur de logiciel</p>
+                <p>Juin 2018 - Décembre 2018.</p>
+                <p>Agent d'entretient des bâtiments / afpa compiègne</p>
+                <p>2015 - 2017.</p>
+                <p>Encadrant technique de parcours <br> en hauteurs / Parc carisiolas Noyon.</p>
+                <p>Janvier 2014 - Août 2014.</p>
             </div>
 
+            <div class="para col-md-4 ">
+              <h2 class="title" id="informations">Mes informations:</h2>
+                <p>Nom: Elsen</p>
+                <p>Prénom: Kévin</p>
+                <p>Age: 23ans</p>
+                <p>Habitation: Noyon</p>
+                <p>Code postal: 60400</p>
+                <p></p>
+            </div>
 
-
-
-
-
-            <div class="para">
-              <h2 id="Expérience">Expérience:</h2>
+            <div class="para col-md-4 ">
+              <h2 class="title" id="experience">Expérience:</h2>
               <strong><p>Agent d'entretiens des bâtiments</p></strong>
               <ul>
                 <li>espace vert</li>
@@ -99,7 +80,7 @@
                 <li>plomberie</li>
                 <li>soudage</li>
               </ul>
-              <strong><p>Agent polyvalent et encadrant technique <br>de parcours en hauteurs</p></strong>
+              <strong><p>Encadrant technique <br>de parcours en hauteurs</p></strong>
               <ul>
                 <li>Entretient du parc</li>
                 <li>rénovation des construction</li>
@@ -107,7 +88,7 @@
                 <li>briefing de sécurité sur les parcours d'accrobranche</li>
               </ul>
             </div>
-           </div>
+
           </div>
         <div class="row">
           <div class="offset-md-4 col-md-4 offset-md-4">
@@ -129,7 +110,7 @@
                   <h3 class="card-title">HTML:</h3>
                    <i class="fas fa-heart f004"></i>
                    <i class="fas fa-heart f004"></i>
-                   <i class="far fa-heart f005"></i>
+                   <i class="fas fa-heart f004"></i>
                    <i class="far fa-heart f005"></i>
                    <i class="far fa-heart f005"></i>
                 </div>
@@ -140,7 +121,7 @@
                   <h3 class="card-title">CSS:</h3>
                   <i class="fas fa-heart f004"></i>
                   <i class="fas fa-heart f004"></i>
-                  <i class="far fa-heart f005"></i>
+                  <i class="fas fa-heart f004"></i>
                   <i class="far fa-heart f005"></i>
                   <i class="far fa-heart f005"></i>
                 </div>
@@ -149,8 +130,8 @@
 
                 <div id="FONT3"class="card-body">
                   <h3 class="card-title">JS:</h3>
-                  <i class="far fa-heart f005"></i>
-                  <i class="far fa-heart f005"></i>
+                  <i class="fas fa-heart f004"></i>
+                  <i class="fas fa-heart f004"></i>
                   <i class="far fa-heart f005"></i>
                   <i class="far fa-heart f005"></i>
                   <i class="far fa-heart f005"></i>
@@ -194,7 +175,7 @@
                   <h3 class="card-title">GITHUB:</h3>
                   <i class="fas fa-heart f004"></i>
                   <i class="fas fa-heart f004"></i>
-                  <i class="far fa-heart f005"></i>
+                  <i class="fas fa-heart f004"></i>
                   <i class="far fa-heart f005"></i>
                   <i class="far fa-heart f005"></i>
                 </div>
@@ -203,60 +184,63 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="offset-md-4 col-md-4 offset-md-4">
-          <div class="para">
-            <div id="hobbies"><h2>Mes hobbies:</h2></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="timeline">
-      <div class="container left">
-        <div class="content">
-          <div class="para2">
-            <div class="police"> <h2>Jeux-vidéos</h2></div>
-            <p>Pour moi les jeux vidéos, est une passions que j'entretiens depuis tout petit. J'ai toujours était fasciné par les univers qui on pus être crées.
-              Par exemple: Mario, zelda, Warcraft est j'en passes..
-              Bref, j'ai grandis dans cette univers et je suis pas prêt d'en sortir.</p>
-            </div>
-          </div>
-        </div>
+      <div class="offset-1 col-10 offset-1">
 
-        <div class="container right">
-          <div id="gif1" class="content">
-            <div class="para2">
-              <div class="police"><h2>Animés</h2></div>
-              <p>Les annimés une grande histoire d'amour..
-                Toujours le même engoument autant, pour les annimés que pour les jeux-vidéos.</p>
-              </div>
+    <div id="carousel" class="carousel slide mt-5" data-ride="carousel">
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+              <span data-target="#carousel" data-slide-to="0" class="dot active"></span>
+              <span data-target="#carousel" data-slide-to="1" class="dot"></span>
+              <span data-target="#carousel" data-slide-to="2" class="dot"></span>
             </div>
-          </div>
-          <div class="container left">
-            <div id="gif2" class="content">
-              <div class="para2">
-                <div class="police"><h2>Culture Japonaise</h2></div>
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div id="gif2" class="police"><h2 id="texttitre">Culture Japonaise</h2>
                 <p>Le japon..</p>
                 <p>Tellement de choses à dire, C'est simple, j'adore ce pays! <br>Leurs cultures magnifique, leurs façons de pensées et leurs visions des choses m'étonne encore et toujours</p>
                 <p>C'est simple, si je devais partir quelque part, sa serais la bas !</p>
               </div>
             </div>
+            <div class="carousel-item">
+              <div id="gif1" class="police"><h2 id="texttitre">Animés</h2>
+              <p>Les annimés une grande histoire d'amour..
+                Toujours le même engoument autant, pour les annimés que pour les jeux-vidéos.</p>
+              </div>
           </div>
-
-
-
-
-
-
-
+          <div class="carousel-item">
+            <div id="content" class="police"> <h2 id="texttitre">Jeux-vidéos</h2>
+            <p>Pour moi les jeux vidéos, est une passions que j'entretiens depuis tout petit. J'ai toujours était fasciné par les univers qui on pus être crées.
+              Par exemple: Mario, zelda, Warcraft est j'en passes..
+              Bref, j'ai grandis dans cette univers et je suis pas prêt d'en sortir.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#carousel" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#carousel" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+  </div>
 
           <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
           <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+           <script src="assets/JS/jquery-3.2.1.js"></script>
+           <script>
+
+
+           $(function(){
+    $('#Expérience').click(function(){
+        $("html, body").animate({scrollBottom: 0},"slow");
+      });
+    });
+      </script>
         </body>
         </html>
-
-
 
 
 
