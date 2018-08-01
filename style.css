@@ -54,6 +54,7 @@ body{
   #compétences{
     background-image: url(https://d3isma7snj3lcx.cloudfront.net/optim/images/gallery/10/105257/the-legend-of-zelda-breath-of-the-wild-switch-e793fb84.jpg);
     text-align: center;
+    margin-top: 50px;
     font-family: 'Rakkas' , cursive;
     margin-bottom: 50px;
     box-shadow: 3px 3px black, -1em 0 .4em black;
@@ -64,6 +65,8 @@ body{
   #hobbies{
     background-image: url(https://d3isma7snj3lcx.cloudfront.net/optim/images/gallery/10/105257/the-legend-of-zelda-breath-of-the-wild-switch-e793fb84.jpg);
     font-family: 'Rakkas' , cursive;
+    text-align: center;
+    margin-top: 50px;
     margin-bottom: 50px;
     box-shadow: 3px 3px black, -1em 0 .4em black;
     text-decoration: underline;
@@ -115,7 +118,7 @@ body{
       background: linear-gradient(
         rgba(0, 0, 0, 0.60),
         rgba(0, 0, 0, 0.60)
-        ),url(assets/IMG/nintendo-retro-arcade-game-logo-sticker-900x900.jpg);
+        ),url(assets/IMG/nintendo-retro-arcade-game-logo-sticker-800x800.jpg);
         background-size:cover;
         color: white;
       }
