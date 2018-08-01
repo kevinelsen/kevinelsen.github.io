@@ -18,19 +18,25 @@ body{
       background-color: inherit;
 
   }
+  nav{
+    display: inline-block;
+    margin-left:  720px;
+    text-align: left;
 
+
+  }
   #nav li a {
-      float: right;
+      float: left;
       text-align: center;
       display: block;
       color: white;
-      padding: 8px 16px;
+      padding: 12px 30px;
       text-decoration: none;
   }
 
   /* Change the link color on hover */
   #nav li a:hover {
-      background-color: #555;
+      background-color: #1b3550;
       color: white;
   }
 
@@ -50,6 +56,7 @@ body{
     box-shadow: 3px 3px black, -1em 0 .4em black;
     text-decoration: underline;
     color: white;
+    margin-top: 50px;
   }
   #compétences{
     background-image: url(https://d3isma7snj3lcx.cloudfront.net/optim/images/gallery/10/105257/the-legend-of-zelda-breath-of-the-wild-switch-e793fb84.jpg);
