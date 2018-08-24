@@ -95,11 +95,6 @@ body{
     margin-left: 100px;
     margin-right: 20px;
   }
-  #cardBR2{
-    margin-bottom:50px;
-    margin-left: 100px;
-    margin-right: 20px;
-  }
   .f004{
     font-size: xx-large;
     color: red;
@@ -170,6 +165,41 @@ body{
                 rgba(0, 0, 0, 0.60),
                 rgba(0, 0, 0, 0.60)
                 ),url(http://themeandphoto.com/wp-content/uploads/2014/08/error-back.png);
+                background-size:cover;
+                color: white;
+              }
+              #FONT7{
+              font-family: 'Rakkas' , cursive;
+              box-shadow: 3px 3px black, -1em 0 .4em black;
+              padding: 20px 30px;
+              background: linear-gradient(
+                rgba(0, 0, 0, 0.60),
+                rgba(0, 0, 0, 0.60)
+                ),url(https://www.artsfon.com/large/201801/156398.jpg);
+                background-size:cover;
+                color: white;
+              }
+               }
+              #FONT8{
+              font-family: 'Rakkas' , cursive;
+              box-shadow: 3px 3px black, -1em 0 .4em black;
+              padding: 20px 30px;
+              background: linear-gradient(
+                rgba(0, 0, 0, 0.60),
+                rgba(0, 0, 0, 0.60)
+                ),url(http://i.jeuxactus.com/datas/jeux/t/h/the-legend-of-zelda-twilight-princess/xl/the-legend-of-zelda-4e2634b55672a.jpg);
+                background-size:cover;
+                color: white;
+              }
+               }
+              #FONT9{
+              font-family: 'Rakkas' , cursive;
+              box-shadow: 3px 3px black, -1em 0 .4em black;
+              padding: 20px 30px;
+              background: linear-gradient(
+                rgba(0, 0, 0, 0.60),
+                rgba(0, 0, 0, 0.60)
+                ),url(assets/IMG/microsoft.jpg);
                 background-size:cover;
                 color: white;
               }
