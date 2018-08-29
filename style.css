@@ -87,9 +87,6 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: x-large;
   }
-  {
-    box-sizing: border-box;
-  }
   #cardBR{
     margin-bottom: 50px;
     margin-left: 100px;
@@ -175,11 +172,10 @@ body{
               background: linear-gradient(
                 rgba(0, 0, 0, 0.60),
                 rgba(0, 0, 0, 0.60)
-                ),url(https://www.artsfon.com/large/201801/156398.jpg);
+                ),url(http://image.jeuxvideo.com/images/p3/g/o/gow3p3001.jpg);
                 background-size:cover;
                 color: white;
               }
-               }
               #FONT8{
               font-family: 'Rakkas' , cursive;
               box-shadow: 3px 3px black, -1em 0 .4em black;
@@ -190,19 +186,52 @@ body{
                 ),url(http://i.jeuxactus.com/datas/jeux/t/h/the-legend-of-zelda-twilight-princess/xl/the-legend-of-zelda-4e2634b55672a.jpg);
                 background-size:cover;
                 color: white;
-              }
-               }
-              #FONT9{
+              }              
+               #FONT9{
               font-family: 'Rakkas' , cursive;
               box-shadow: 3px 3px black, -1em 0 .4em black;
               padding: 20px 30px;
               background: linear-gradient(
                 rgba(0, 0, 0, 0.60),
                 rgba(0, 0, 0, 0.60)
-                ),url(assets/IMG/microsoft.jpg);
+                ),url(http://themeandphoto.com/wp-content/uploads/2014/08/error-back.png);
+                background-size:cover;
+                color: white;
+              }  
+             #FONT10{
+              font-family: 'Rakkas' , cursive;
+              box-shadow: 3px 3px black, -1em 0 .4em black;
+              padding: 20px 30px;
+              background: linear-gradient(
+                rgba(0, 0, 0, 0.60),
+                rgba(0, 0, 0, 0.60)
+                ),url(http://2.bp.blogspot.com/-tq3RtQU-TF4/U76-F7FMfWI/AAAAAAAAAEU/cjn17Wn0EpI/s1600/the-last-of-us-logo+1.png);
                 background-size:cover;
                 color: white;
               }
+              #FONT11{
+              font-family: 'Rakkas' , cursive;
+              box-shadow: 3px 3px black, -1em 0 .4em black;
+              padding: 20px 30px;
+              background: linear-gradient(
+                rgba(0, 0, 0, 0.60),
+                rgba(0, 0, 0, 0.60)
+                ),url(http://nintendoforever.free.fr/_autres/Series/Metroid/DossierDiddu/Scenario_Metroid1Nes/Titre.png);
+                background-size:cover;
+                color: white;
+              }              
+               #FONT12{
+              font-family: 'Rakkas' , cursive;
+              box-shadow: 3px 3px black, -1em 0 .4em black;
+              padding: 20px 30px;
+              background: linear-gradient(
+                rgba(0, 0, 0, 0.60),
+                rgba(0, 0, 0, 0.60)
+                ),url(http://themeandphoto.com/wp-content/uploads/2014/08/error-back.png);
+                background-size:cover;
+                color: white;
+              } 
+              
               #RAKKAS{
                 font-size: xx-large;
                 font-family: 'Rakkas', cursive;
@@ -375,7 +404,7 @@ body{
                         .right {
                           left: 0%;
                         }
-                      }
+                      
 
 
 
